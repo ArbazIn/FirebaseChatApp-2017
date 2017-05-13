@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        card_view:cardBackgroundColor="@color/colorPrimary"
+        card_view:cardCornerRadius="@dimen/_10sdp">
+
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--<com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/sdUserImg"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                card_view:placeholderImage="@drawable/tv_round_bg" />
+-->
+            <!--android:layout_toRightOf="@id/sdUserImg"-->
+            <TextView
+                android:id="@+id/tvLeftDot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:text="@string/text_with_bullet"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_20sdp" />
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_toRightOf="@id/tvLeftDot"
+                android:text="default"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_18sdp" />
+
+            <TextView
+                android:id="@+id/tvRightDot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:text="@string/text_with_bullet"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_20sdp" />
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/llLines"
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:layout_below="@id/card_view"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/viewLeft"
+                android:layout_width="4dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/viewRight"
+                android:layout_width="4dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

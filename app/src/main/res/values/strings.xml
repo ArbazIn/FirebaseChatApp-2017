@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="platform_type">Android</string>
+    <string name="token_txt">Android Token</string>
+
+    //Default Messages
+    <string name="txt_no_network">Sorry, your device couldn\'t connect (no Internet connection)!</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_cancel">CANCEL</string>
+    <string name="please_wait_txt">Please Wait..</string>
+    <string name="app_exit_message">Do you want to exit application?</string>
+    <string name="defaultTxt">--</string>
+    <string name="something_wrong">Something Went Wrong!</string>
+
+    //For login screen
+    <string name="emailPassTxt">Email Password Method</string>
+    <string name="loginStatus">Email :</string>
+    <string name="etEmail">Email</string>
+    <string name="etPass">Password</string>
+    <string name="or_txt">OR</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnRegister">Register</string>
+
+    <string name="email_validation">Enter Email!</string>
+    <string name="pass_validation">Enter Password!</string>
+    <string name="pass_validation_login">Enter Password!</string>
+    <string name="pass_validation_reg">Password too short, enter minimum 6 characters!</string>
+
+    //For users list screen
+    <string name="user_error">Users Not Found!</string>
+    <string name="user_list_title">Swipe Right To Chat</string>
+
+    //For chat room screen
+    <string name="chat_with_str">Chat With</string>
+    <string name="et_msg_hint">Type a message...</string>
+    <string name="audio_error">Hold to record,release to send</string>
+
+
+    <!--For Camera Dialog-->
+    <string name="add_temple_icon_text">Select Icon</string>
+    <string name="add_profile_image_text">Select Profile Image</string>
+    <string name="add_cover_image_text">Select Cover Image</string>
+    <string name="camera_photo">Camera</string>
+    <string name="gallery_photo">Gallery</string>
+    <string name="cancel_photo">Cancel</string>
+
+    //dot
+    <string name="text_with_bullet">\u2022</string>
+
+</resources>

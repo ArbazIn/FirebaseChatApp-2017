@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00695C</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="colorAccent">#004D40</color>
+
+    <color name="tvChatRight">#00695C</color>
+    <color name="tvChatLeft">#00695C</color>
+
+    <color name="etChatMsg">#00695C</color>
+
+    <color name="etChatMsadsag">#D32F2F</color>
+
+
+
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="colorBlue">#0000ff</color>
+    <color name="colorGreen">#00ff00 </color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackOverlay">#80000000</color>
+
+    <color name="colorGrey">#95989A</color>
+    <color name="colorGreyOverlay">#808c8686</color>
+    <color name="colorGreyLight">#80b9afaf</color>
+
+    <!--EditText Style-->
+    <color name="etBg">#91251d</color>
+    <color name="etTextColor">#000000</color>
+    <color name="etTextHintColor">#86a307</color>
+
+
+    <color name="textColor">#FDEA3D</color>
+    <color name="textColorNotification">#B6ACB8</color>
+    <color name="colorAlphaBlack">#90000000</color>
+    <color name="loginTextColor">#939393</color>
+
+    <color name="my_spinner_text_color">#939393</color>
+
+    <color name="textMessageColor">#dadada</color>
+
+</resources>

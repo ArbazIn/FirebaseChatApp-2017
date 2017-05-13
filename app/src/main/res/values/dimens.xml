@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--Nav Header and menu size-->
+    <dimen name="dim_nav_suub_menu_left">@dimen/_45sdp</dimen>
+    <dimen name="dim_nav_hdr_title">@dimen/_15sdp</dimen>
+    <dimen name="dim_nav_hdr_sub_title">@dimen/_10sdp</dimen>
+    <dimen name="dim_nav_menu_text">@dimen/_12sdp</dimen>
+    <dimen name="dim_nav_menu_img_size">@dimen/_25sdp</dimen>
+
+    <!--ToolBar TextView Size-->
+    <dimen name="dim_app_tb_tv">@dimen/_15sdp</dimen>
+
+    <!--Text Size-->
+    <dimen name="dim_app_tb_et">@dimen/_12sdp</dimen>
+
+    <!--Buttons HeightRequest-->
+    <dimen name="btn_height">@dimen/_30sdp</dimen>
+    <dimen name="btn_text_size">@dimen/_12sdp</dimen>
+
+    <!--Image View Height for wall Image-->
+    <dimen name="img_height">@dimen/_200sdp</dimen>
+    <dimen name="dim_app_recyclerview_padding" >@dimen/_20sdp</dimen>
+</resources>

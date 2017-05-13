@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvRightMsgTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:textSize="@dimen/_10sdp"
+        android:text="Time"
+        android:textColor="@color/colorBlack" />
+    <TextView
+        android:id="@+id/tvRightMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_marginRight="@dimen/_3sdp"
+        android:background="@drawable/tv_right_chat_border"
+        android:paddingBottom="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:textSize="@dimen/_12sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:text="Sample Right"
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_3sdp"
+    android:layout_marginBottom="@dimen/_3sdp"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/_5sdp"
+    android:paddingRight="@dimen/_5sdp">
+
+    <TextView
+        android:id="@+id/tvRightMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tv_right_chat_border"
+        android:padding="@dimen/_7sdp"
+        android:layout_gravity="right"
+        android:text="Hi hi Hi hi Hi hi Hi "
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_12sdp" />
+
+</LinearLayout>-->
